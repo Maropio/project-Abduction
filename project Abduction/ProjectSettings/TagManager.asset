@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - mataOleo
+  - player
+  - fusca
+  - vidas
+  - tempo
+  - projetil
+  - barreira
+  - Fusca
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - oleo
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: FundoCidade
+    uniqueID: 1652882777
+    locked: 0
+  - name: FundoRua
+    uniqueID: 2620355449
+    locked: 0
+  - name: oleo
+    uniqueID: 3146322977
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
