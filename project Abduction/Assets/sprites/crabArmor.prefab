@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2542560696640281611}
   - component: {fileID: -7415876184259333224}
   - component: {fileID: 2883538058458818735}
+  - component: {fileID: -3823568459569626653}
   m_Layer: 0
   m_Name: crabArmor
   m_TagString: Untagged
@@ -188,3 +189,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6bfd0841c09f2f4785e0d3145580af7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &-3823568459569626653
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2542560696640281613}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 267bbd76c2bb18d47855bfd42e209193, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
