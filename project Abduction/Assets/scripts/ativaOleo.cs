@@ -28,7 +28,7 @@ public class ativaOleo : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             movimento m = collision.GetComponent<movimento>();
-            m.BateOleo(60);
+            m.BateOleo(45);
             
         }else if (collision.CompareTag("fusca"))
         {

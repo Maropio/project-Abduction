@@ -9,7 +9,8 @@ public class spawnaOleo : MonoBehaviour
     Transform t;
     int chance = 70;
     int chanceB = 70;
-    public GameObject barreira;
+    public GameObject barreira,aviso;
+    
     
     const float velocidade = 20.0f;
     // Start is called before the first frame update
@@ -64,6 +65,10 @@ public class spawnaOleo : MonoBehaviour
                 Rigidbody2D rb = g.GetComponent<Rigidbody2D>();
                 //da velocidade ao oleo, fazendo mover para esquerda
                 rb.velocity = Vector2.left * velocidade;
+                Vector2 posA = new Vector2(aviso.transform.position.x, pos.y);
+                
+                
+
             }
             
         }
@@ -100,6 +105,9 @@ public class spawnaOleo : MonoBehaviour
                 Rigidbody2D rb = g.GetComponent<Rigidbody2D>();
                 //da velocidade ao oleo, fazendo mover para esquerda
                 rb.velocity = Vector2.left * velocidade;
+                Vector2 posA = new Vector2(aviso.transform.position.x, g.transform.position.y);
+                GameObject a = Instantiate(aviso, posA, t.rotation);
+                Destroy(a, 1f);
             }
 
         }

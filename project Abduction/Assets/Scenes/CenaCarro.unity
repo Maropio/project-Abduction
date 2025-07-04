@@ -514,10 +514,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.20253164
-    y: 0.3525
-    width: 0.49507734
-    height: 0.49499997
+    x: 0.004219409
+    y: 0.005
+    width: 0.9901547
+    height: 0.98999995
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -988,6 +988,7 @@ MonoBehaviour:
   - {fileID: 7703642800446105865, guid: 9f70f5a57c644714db0ffe84ff79ad59, type: 3}
   - {fileID: 6460961903491526531, guid: a5131e74dd283df4daab2e0a14653cc4, type: 3}
   barreira: {fileID: 4902284592898730978, guid: f9480b1a5c1cd7246855fae82bb4cca7, type: 3}
+  aviso: {fileID: 5847982273441800886, guid: 3cf4d5b37c5e029498032acb9e2b3c13, type: 3}
 --- !u!4 &778881400
 Transform:
   m_ObjectHideFlags: 0
@@ -996,7 +997,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778881398}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.93, y: 0.23411074, z: 0.06439099}
+  m_LocalPosition: {x: 25.98, y: 0.23411074, z: 0.06439099}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
