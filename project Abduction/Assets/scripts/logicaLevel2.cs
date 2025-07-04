@@ -60,7 +60,7 @@ public class logicaLevel2 : MonoBehaviour
     public static int MaxInimigosHorda()
     {
        
-        int max = (int)(horda * 1.5f*10 +UnityEngine.Random.Range(-5,6)  );
+        int max = (int)((horda-1) * 1.5f* UnityEngine.Random.Range(0.8f,1.2f) + 10  );
 
         return max;
     }

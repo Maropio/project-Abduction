@@ -14,11 +14,13 @@ public class logica : MonoBehaviour
     private static int vidas, invincibilidade = 0,vidaFusca; 
     static TextMeshProUGUI vidasTxt,tempoTXT;
     static Cenas cena = new Cenas();
+    
 
     void Start()
     {
         vidas = 3;
         vidaFusca = 6;
+        
     }
 
     // Update is called once per frame
@@ -59,10 +61,12 @@ public class logica : MonoBehaviour
     public static void PerdeVidasFusca()
     {
         vidaFusca--;
+        
         if(vidaFusca == 0)
         {
             SceneManager.LoadScene("CenaSupla");
         }
+        
     }
 
     public static int GetVidasFusca()

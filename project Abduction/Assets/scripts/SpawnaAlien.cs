@@ -35,6 +35,26 @@ public class SpawnaAlien : MonoBehaviour
         }
         if(totalAliensSpawnados < maxAliens)
         {
+            if(totalAliens == 0)
+            {
+                int c = Random.Range(1, 101);
+                if (c <= chance)
+                {
+                    int r = Random.Range(0, t.Length);
+                    GameObject alien = Instantiate(aliens[0], t[r].position, Quaternion.identity);
+                    alien.transform.position = new Vector3(alien.transform.position.x, alien.transform.position.y, 0f);
+                    totalAliens += 1;
+                    totalAliensSpawnados++;
+                }
+                else
+                {
+                    int r = Random.Range(0, 6);
+                    GameObject alien = Instantiate(aliens[1], t[r].position, Quaternion.identity);
+                    alien.transform.position = new Vector3(alien.transform.position.x, alien.transform.position.y, 0f);
+                    totalAliens += 1;
+                    totalAliensSpawnados++;
+                }
+            }
             if (contador % (int)(spawnCooldown *alea+1) == 0)
             {
                 int c = Random.Range(1, 101);

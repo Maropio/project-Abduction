@@ -12,6 +12,7 @@ TagManager:
   - projetil
   - barreira
   - Fusca
+  - vidaFusca
   layers:
   - Default
   - TransparentFX

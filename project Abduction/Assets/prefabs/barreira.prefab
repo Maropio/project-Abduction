@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4902284592898730981}
   - component: {fileID: 4902284592898730985}
   - component: {fileID: -4046807133686340539}
+  - component: {fileID: -4235207734391178969}
   m_Layer: 0
   m_Name: barreira
   m_TagString: barreira
@@ -101,7 +102,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.20443624, y: -0.46129227}
+  m_Offset: {x: 0.20443624, y: -0.24298131}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -112,7 +113,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6927339, y: 1.2419255}
+  m_Size: {x: 1.6927339, y: 1.7609291}
   m_EdgeRadius: 0
 --- !u!50 &4902284592898730981
 Rigidbody2D:
@@ -157,5 +158,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ccb82b28ac9cb84cb5c89a20ee67458, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-4235207734391178969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4902284592898730978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c7a9d66e6ed4aa4aac1118e7c68d9fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
