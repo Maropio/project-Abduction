@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/CutsceneReporter.unity
+    guid: cf4cccf1f32d3374d9e4014a067e89d9
+  - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: ef771a9531d781d47970552e985d8e17
   - enabled: 1
     path: Assets/Scenes/CenaCarro.unity
     guid: 125ad5ea7952093459a009fdc615e9ed
+  - enabled: 1
+    path: Assets/Scenes/Cutscene2.unity
+    guid: 988dc309b7c47a745a6943c400fbf80f
   - enabled: 1
     path: Assets/Scenes/CenaSupla.unity
     guid: 951c7cf821b96894c9a0ac7bbd7c68a5

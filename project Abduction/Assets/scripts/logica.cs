@@ -31,6 +31,10 @@ public class logica : MonoBehaviour
         {
             vidas++;
         }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            PerdeVidasFusca();
+        }
         
     }
     public static int GetVidas()
@@ -64,7 +68,7 @@ public class logica : MonoBehaviour
         
         if(vidaFusca == 0)
         {
-            SceneManager.LoadScene("CenaSupla");
+            SceneManager.LoadScene("Cutscene2");
         }
         
     }
